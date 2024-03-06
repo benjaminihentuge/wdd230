@@ -1,0 +1,113 @@
+/* Add a semicolon before @import statement */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Noto+Serif:wght@700&family=Oswald:wght@700family=Poppins:wght@200;300;400;600;800&family=Roboto:ital,wght@1,500&display=swap');
+
+:root {
+  --primary-color: #416422;
+  --secondary-color: #72a06a;
+  --accent1-color: #d9d40c;
+  --accent2-color: #819a20;
+  
+  --heading-font: "Oswald";
+  --paragraph-font: "Poppins", Helvetica, sans-serif;
+
+  --headline-color-on-white: #416422;
+  --headline-color-on-color: #819a20;
+  --paragraph-color-on-white: #416422;
+  --paragraph-color-on-color: #416422;
+  --paragraph-background-color: #72a06a;
+  --nav-link-color: #416422;
+  --nav-background-color: #d9d40c;
+  --nav-hover-link-color: #819a20;
+  --nav-hover-background-color: #416422;
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Add a semicolon after max-width property */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+
+.accent2 {
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
