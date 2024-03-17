@@ -36,7 +36,9 @@ h1::after {
     height: 2px; 
     background-color: #333; 
 }
-
+#menu {
+    display: none; 
+}
 nav {
     background-color: #0066cc;
     padding: 10px;
@@ -68,6 +70,7 @@ nav a:hover {
 
 nav .active {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
 }
 
 ul {
@@ -97,3 +100,5 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
