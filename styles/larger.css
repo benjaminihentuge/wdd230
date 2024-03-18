@@ -58,8 +58,8 @@
         color: #fff;
         text-decoration: none;
         padding: 1rem;
-        margin-left: 0; /* Add this line to remove the default margin */
-        padding-left: 0; /* Add this line to remove the default padding */
+        margin-left: 0; 
+        padding-left: 0; 
     }
     .navigation a:hover {
         background-color: rgba(255, 255, 255, 0.2);
