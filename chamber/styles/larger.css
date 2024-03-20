@@ -36,6 +36,7 @@
     
     #menu.open::before {
         content: "❎";
+
         
     }
     
@@ -45,7 +46,7 @@
         list-style: none;
         background-color: #333;
         color: #fff;
-        background-color: #0066cc;
+        background-color: #72a06a;;
         margin-top: 1px;
         
     }
@@ -54,7 +55,7 @@
         display: none;
         flex-direction: column;
         list-style: none;
-        background-color: #0066cc;
+        background-color: #72a06a;;
         color: #fff;
         text-decoration: none;
         padding: 1rem;
@@ -69,7 +70,7 @@
     
     nav .active {
         background-color: rgba(0, 0, 0, 0.3);
-        border-radius: 15px;
+        
         
     }
     .navigation.open a {
@@ -94,9 +95,5 @@
     nav li {
         margin: 0 100px;
     }
-    .my {
-        display: grid;
-        grid-template-columns: 2fr 1fr; 
-        gap: 20px; 
-    }
+    
 }
